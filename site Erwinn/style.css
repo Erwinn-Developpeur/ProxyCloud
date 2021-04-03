@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background-size: cover;
+    background-color: aliceblue;
+    color: aliceblue;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+}
+
+
+.logo {
+    border-radius: 100%;
+    margin-left: 0px;
+}
+
+
+nav {
+    text-align: center;
+    padding-top: 30px;
+    border: solid;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(255, 255, 255, 0.473);
+}
+
+
+.menu {
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 25px;
+}
+
+
+.resume {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+
+.title {
+    text-align: center;
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 40px;
+    transition: 4s;
+
+}
+
+
+
+
+
+
+.button {
+    background-color: black;
+    opacity: 0.7;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    margin-top: 70px;
+    transition: 2s;
+    border: solid 3px #333;
+    cursor: pointer;
+}
+
+
+
+.button h2 {
+   text-align: center; 
+   padding-top: 10px;
+   opacity: 1;
+}
+
+
+.button:hover {
+    background-color: rgb(0, 0, 59);
+    border: solid 3px rgb(14, 3, 117);
+    transition: 2s;
+}
+
+
+
+
+/* STEPS */
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+.steps {
+    color: #333;
+
+}
+
+
+.steps ul {
+    margin: 80px 0;
+    list-style-type: none;
+}
+
+
+.steps ul li {
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 12px;
+ 
+}
+
+
+.steps h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.steps p {
+    margin-bottom: 20px;
+}
+
+#steps1 {
+    background: url(https://cdn.discordapp.com/attachments/822792691283656734/827805444730781716/PicsArt_04-03-09.23.03.png) 
+    no-repeat top center;
+    background-size: 20%;
+    background-color: rgb(253, 252, 252);
+    font-family: 'Architects Daughter', sans-serif;
+}
+
+#steps2 {
+    background: url(https://cdn.pixabay.com/photo/2013/07/13/12/03/banknotes-159085_1280.png) no-repeat top center;
+    background-size: 30%;
+    background-color: rgb(253, 252, 252);
+    font-family: 'Architects Daughter', sans-serif;
+}
+
+
+#steps3 {
+    background: url(https://cdn.pixabay.com/photo/2014/04/02/10/14/support-303213_960_720.png) no-repeat top center;
+    background-size: 20%;
+    background-color: rgb(253, 252, 252);
+    font-family: 'Architects Daughter', sans-serif;
+    margin-bottom: 50px;
+}
+
+
+#steps4 {
+    background: url(https://cdn.pixabay.com/photo/2017/05/26/05/38/discount-2345221_1280.png) no-repeat top center;
+    background-size: 30%;
+    background-color: rgb(253, 252, 252);
+    font-family: 'Architects Daughter', sans-serif;
+}
+
+
+#steps5 {
+    background: url(https://media.istockphoto.com/vectors/medical-face-mask-icon-vector-id1214356891?s=612x612) no-repeat top center;
+    background-size: 30%;
+    background-color: rgb(253, 252, 252);
+    font-family: 'Architects Daughter', sans-serif;
+}
+
+
+#steps6 {
+    background: url(https://cdn.discordapp.com/attachments/826715244050513921/827609429791997952/logo.png) no-repeat top center;
+    background-size: 30%;
+    background-color: rgb(253, 252, 252);
+    font-family: 'Architects Daughter', sans-serif;
+}
+
+
+#steps1:hover {
+    text-shadow: 0px 1px rgb(102, 102, 102);
+    border: solid 2px #444;
+}
+
+
+#steps2:hover {
+    text-shadow: 0px 1px rgb(102, 102, 102);
+    border: solid 2px #444;
+}
+
+
+#steps3:hover {
+    text-shadow: 0px 1px rgb(102, 102, 102);   
+    border: solid 2px #444;
+}
+
+#steps4:hover {
+    text-shadow: 0px 1px rgb(102, 102, 102);
+    border: solid 2px #444;
+}
+
+#steps5:hover {
+    text-shadow: 0px 1px rgb(102, 102, 102);
+    border: solid 2px #444;
+}
+
+#steps6:hover {
+    text-shadow: 0px 1px rgb(102, 102, 102);
+    border: solid 2px #444;
+}
+
+
+
+
+
+/* OFFRES */
+
+
+.offres {
+    text-align: center;
+    margin-top: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    background-color: rgb(253, 252, 252);
+    width: 300px;
+    border: solid 3px black;
+}
+
+
+.offres ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+footer {
+    background-color: rgb(24, 20, 56);
+    text-align: center;
+    margin-top: 750px;
+    height: 200px;
+}
+
+
+.div-footer {
+    padding-top: 50px;
+    float: left;
+    margin-left: 20px;
+}
+
+footer h3 {
+    margin-top: 20px;
+}
+
+
+.titre-footer {
+    text-align: center;
+    color: rgb(145, 143, 143);
+    padding-top: 30px;
+}
+
+
+.email {
+        text-align: center;
+        color: rgb(145, 143, 143);
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+
+    body {
+        font-size: 15px;
+        list-style-type: none;
+    }
+
+}
+
+
